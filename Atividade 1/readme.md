@@ -2,6 +2,16 @@
 
 Este projeto consiste em um programa desenvolvido em C ou Java para simular o escalonamento de um conjunto de tarefas conhecidas. O escalonamento é realizado considerando o tempo de execução de cada tarefa e a quantidade de processadores disponíveis. O programa utiliza a política de escalonamento clássica SJF (Shortest Job First), que executa as menores tarefas primeiro. Além disso, foi implementada uma versão oposta, que considera as maiores tarefas primeiro. 
 
+## Como Compilar e Executar o Programa (GCC)
+
+### Compilação em C
+
+Para compilar o programa em C utilizando o GCC, abra um terminal e navegue até o diretório do projeto. Execute o seguinte comando:
+
+```bash
+gcc -o trabalho_escalonador trabalho_escalonador.c -lm
+```
+
 ## Como Executar o Programa
 
 O programa pode ser executado a partir da linha de comando, utilizando os parâmetros `nome_do_arquivo` e `quantidade_de_processadores`. A seguir, temos um exemplo de como executar o programa:
