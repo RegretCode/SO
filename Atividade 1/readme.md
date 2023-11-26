@@ -9,7 +9,7 @@ Este projeto consiste em um programa desenvolvido em C ou Java para simular o es
 Para compilar o programa em C utilizando o GCC, abra um terminal e navegue até o diretório do projeto. Execute o seguinte comando:
 
 ```bash
-gcc -o trabalho_escalonador trabalho_escalonador.c -lm
+gcc -o trabalho_escalonador.c
 ```
 
 ## Como Executar o Programa
