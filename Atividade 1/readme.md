@@ -1,6 +1,6 @@
 # Projeto de Escalonamento de Tarefas
 
-Este projeto consiste em um programa desenvolvido em C ou Java para simular o escalonamento de um conjunto de tarefas conhecidas. O escalonamento é realizado considerando o tempo de execução de cada tarefa e a quantidade de processadores disponíveis. O programa utiliza a política de escalonamento clássica SJF (Shortest Job First), que executa as menores tarefas primeiro. Além disso, foi implementada uma versão oposta, que considera as maiores tarefas primeiro.
+Este projeto consiste em um programa desenvolvido em C ou Java para simular o escalonamento de um conjunto de tarefas conhecidas. O escalonamento é realizado considerando o tempo de execução de cada tarefa e a quantidade de processadores disponíveis. O programa utiliza a política de escalonamento clássica SJF (Shortest Job First), que executa as menores tarefas primeiro. Além disso, foi implementada uma versão oposta, que considera as maiores tarefas primeiro. 
 
 ## Como Executar o Programa
 
@@ -8,19 +8,19 @@ O programa pode ser executado a partir da linha de comando, utilizando os parâm
 
 ```bash
 ./trabalho_escalonador tarefas.txt 2
+```
 
 Onde:
 
 `nome_do_arquivo`: O nome do arquivo que contém informações sobre as tarefas a serem escalonadas.
 `quantidade_de_processadores`: Um número que indica a quantidade de processadores disponíveis.
-```
+
 
 ## Formato do Arquivo de Entrada
 
 O arquivo de entrada deve conter, em cada linha, o nome da tarefa (identificação única) seguido por um espaço e um número inteiro que representa o tempo de execução em segundos. Por exemplo:
 
 ```Plaintext
-
 a1 5
 a2 1
 a3 10
@@ -44,7 +44,6 @@ Como saída, o programa gera um arquivo contendo informações sobre o escalonam
 Para exemplificar, considerando a execução do programa com o arquivo de entrada mencionado anteriormente e dois processadores, a saída pode ser semelhante à seguinte:
 
 ```plaintext
-
 Processador_1
 a2;0;1
 b2;1;4
