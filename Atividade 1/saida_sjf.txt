@@ -1,0 +1,9 @@
+Processador 0: Tarefa a2 - Inicio: 0, Fim: 1
+Processador 1: Tarefa c2 - Inicio: 0, Fim: 2
+Processador 0: Tarefa b2 - Inicio: 1, Fim: 4
+Processador 1: Tarefa a1 - Inicio: 2, Fim: 7
+Processador 0: Tarefa b3 - Inicio: 4, Fim: 11
+Processador 1: Tarefa b4 - Inicio: 7, Fim: 15
+Processador 0: Tarefa c1 - Inicio: 11, Fim: 19
+Processador 1: Tarefa a3 - Inicio: 15, Fim: 25
+Processador 0: Tarefa b1 - Inicio: 19, Fim: 29
